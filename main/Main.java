@@ -1,26 +1,14 @@
 package main;
 
 import java.util.Scanner;
+import main.funcions.*;
 
 public class Main{
-
-    static int Suma(int a, int b){
-        return a + b;
-    }
-
-    static int Resta (int a, int b){
-        return a - b;
-    }
-
-    static int Multi (int a, int b){
-        return a * b;
-    }
-
-    static double Division (int a, int b){
-        return (double)a / (double)b;
-    }
     public static void main(String[] args){
+
+        Functions fc = new Functions();
         Scanner sc = new Scanner(System.in);
+
         int a, b, op;
 
         System.out.println("Introduzca el primer número: ");
@@ -33,23 +21,25 @@ public class Main{
         System.out.println("¿Qué operación desea realizar?:");
         op = sc.nextInt();
 
+        sc.close();
+
         System.out.print("El resultado es: ");
 
         switch (op) {
             case 1:
-                System.out.println(Suma(a,b));
+                System.out.println(fc.Suma(a,b));
                 break;
 
             case 2:
-                System.out.println(Resta(a,b));
+                System.out.println(fc.Resta(a,b));
                 break;
 
             case 3:
-                System.out.println(Multi(a, b));
+                System.out.println(fc.Multi(a, b));
                 break;
 
             case 4:
-                System.out.println(Division(a, b));
+                System.out.println(fc.Division(a, b));
                 break;
         
             default:
