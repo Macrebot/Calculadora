@@ -6,7 +6,6 @@ import main.funcions.*;
 public class Main{
     public static void main(String[] args){
 
-        Functions fc = new Functions();
         Scanner sc = new Scanner(System.in);
 
         int a, b, op;
@@ -27,19 +26,19 @@ public class Main{
 
         switch (op) {
             case 1:
-                System.out.println(fc.Suma(a,b));
+                System.out.println(Functions.Suma(a,b));
                 break;
 
             case 2:
-                System.out.println(fc.Resta(a,b));
+                System.out.println(Functions.Resta(a,b));
                 break;
 
             case 3:
-                System.out.println(fc.Multi(a, b));
+                System.out.println(Functions.Multi(a, b));
                 break;
 
             case 4:
-                System.out.println(fc.Division(a, b));
+                System.out.println(Functions.Division(a, b));
                 break;
         
             default:
