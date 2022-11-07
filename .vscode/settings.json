@@ -1,0 +1,15 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/macrebot/JavaFX/lib/javafx.base.jar",
+        "/home/macrebot/JavaFX/lib/javafx.controls.jar",
+        "/home/macrebot/JavaFX/lib/javafx.fxml.jar",
+        "/home/macrebot/JavaFX/lib/javafx.graphics.jar",
+        "/home/macrebot/JavaFX/lib/javafx.media.jar",
+        "/home/macrebot/JavaFX/lib/javafx.swing.jar",
+        "/home/macrebot/JavaFX/lib/javafx.web.jar",
+        "/home/macrebot/JavaFX/lib/javafx-swt.jar"
+    ]
+}
