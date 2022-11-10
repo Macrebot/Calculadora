@@ -8,6 +8,14 @@
             "type": "java",
             "name": "Launch App",
             "request": "launch",
+            "vmArgs": "--module-path D:\\Users\\dam116\\JavaFX\\javafx-sdk-19\\lib --add-modules=javafx.controls,javafx.fxml",
+            "mainClass": "application.App",
+            "projectName": "Calculadora_d4b574cf"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
             "vmArgs": "--module-path /home/macrebot/JavaFX/lib --add-modules=javafx.controls,javafx.fxml",
             "mainClass": "application.App",
             "projectName": "Calculadora_8444e7e8"
@@ -17,6 +25,6 @@
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
-        },
+        }
     ]
 }

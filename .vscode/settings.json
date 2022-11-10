@@ -10,6 +10,14 @@
         "/home/macrebot/JavaFX/lib/javafx.media.jar",
         "/home/macrebot/JavaFX/lib/javafx.swing.jar",
         "/home/macrebot/JavaFX/lib/javafx.web.jar",
-        "/home/macrebot/JavaFX/lib/javafx-swt.jar"
+        "/home/macrebot/JavaFX/lib/javafx-swt.jar",
+        "d:\\Users\\dam116\\JavaFX\\javafx-sdk-19\\lib\\javafx.base.jar",
+        "d:\\Users\\dam116\\JavaFX\\javafx-sdk-19\\lib\\javafx.controls.jar",
+        "d:\\Users\\dam116\\JavaFX\\javafx-sdk-19\\lib\\javafx.fxml.jar",
+        "d:\\Users\\dam116\\JavaFX\\javafx-sdk-19\\lib\\javafx.graphics.jar",
+        "d:\\Users\\dam116\\JavaFX\\javafx-sdk-19\\lib\\javafx.media.jar",
+        "d:\\Users\\dam116\\JavaFX\\javafx-sdk-19\\lib\\javafx.swing.jar",
+        "d:\\Users\\dam116\\JavaFX\\javafx-sdk-19\\lib\\javafx.web.jar",
+        "d:\\Users\\dam116\\JavaFX\\javafx-sdk-19\\lib\\javafx-swt.jar"
     ]
 }
