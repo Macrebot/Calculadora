@@ -1,0 +1,48 @@
+* {
+    -fx-box-sizing: border-box;
+    -fx-margin: 0;
+}
+
+.root {
+    -fx-background-color: #000;
+    -fx-font-family: "Hurmit Nerd Font";
+}
+
+.label {
+    -fx-text-fill: #fff;
+    -fx-background-color: #53158d;
+    -fx-text-align: center;
+    -fx-font-size: 20px;
+}
+
+.button {
+    -fx-font-size: 25px;
+    -fx-text-fill: #fff;
+}
+
+#numbers {
+    -fx-border-style: solid;
+    -fx-border-color: #8278da;
+    -fx-border-radius: 20px;
+    -fx-background-color: #121c84;
+}
+#numbers:hover {
+    -fx-background-color: #2b35aa;
+
+}
+#numbers:pressed {
+    -fx-background-color: #444fd1;
+}
+
+#operations {
+    -fx-border-style: solid;
+    -fx-border-color: #8278da;
+    -fx-border-radius: 20px;
+    -fx-background-color: #3a1284;
+}
+#operations:hover {
+    -fx-background-color: #5629a8;
+}
+#operations:pressed {
+    -fx-background-color: #7441d3;
+}
